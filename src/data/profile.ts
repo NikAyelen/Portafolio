@@ -55,6 +55,7 @@ export const profile: Profile = {
   { src: '/proyectos/beta-1.png', alt: 'Pantalla de bienvenida de BETA, planeación financiera personalizada' },
   { src: '/proyectos/beta-2.png', alt: 'Dashboard para gestionar tu dinero dentro de BETA' },
   { src: '/proyectos/beta-3.png', alt: 'Vista de tarjeta y resumen financiero en BETA' },
+  { src: '/proyectos/beta-4.png', alt: 'Vista de menu principal' },
 ],
   
   },
