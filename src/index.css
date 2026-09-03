@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-honeydew text-ink font-body;
+}
+
+::selection {
+  @apply bg-emerald/30 text-ink;
+}
+
+/* Cursor parpadeante para la animación de la terminal del hero */
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 1em;
+  background-color: theme('colors.emerald');
+  vertical-align: middle;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.gallery-slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}

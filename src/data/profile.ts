@@ -1,0 +1,87 @@
+import type { Profile } from '../types'
+
+/**
+ * ══════════════════════════════════════════════════════════════════
+ *  ✏️ EDITA AQUÍ — este archivo concentra casi toda tu información.
+ *  No necesitas tocar los componentes para cambiar textos: solo
+ *  edita los valores de este objeto.
+ * ══════════════════════════════════════════════════════════════════
+ */
+export const profile: Profile = {
+  name: 'Nikte Hernández',
+  role: 'Full-Stack Developer',
+
+  // ✏️ EDITA AQUÍ: tu frase de presentación en el hero
+  heroTagline:
+    'Desarrolladora de software full-stack. Construyo aplicaciones web con arquitecturas claras, del diseño de la base de datos a la interfaz.',
+
+  // ✏️ EDITA AQUÍ: tu biografía (puedes agregar más párrafos al arreglo)
+  aboutParagraphs: [
+    'Soy Ingeniera en Desarrollo de Software Multiplataforma por la Universidad Tecnológica de Cancún. Me especializo en construir aplicaciones web robustas, desde el diseño de arquitectura hasta la implementación del backend y la interfaz.',
+    'Me gusta documentar antes de programar: pensar en la arquitectura, los casos de uso y el flujo de datos antes de escribir la primera línea de código.',
+  ],
+
+  aboutChecklist: [
+    'Arquitectura de cuatro capas: interfaz, controlador, gestor y base de datos',
+    'Stack principal: TypeScript, React, Node.js y Express',
+    'Bases de datos relacionales y no relacionales: SQL Server, MySQL, MariaDB y MongoDB',
+    'Documentación técnica con diagramas UML, casos de uso y diagramas de secuencia',
+  ],
+
+  skillGroups: [
+    {
+      title: 'Lenguajes & Frameworks',
+      skills: ['TypeScript', 'React', 'Node.js', 'Express', 'HTML', 'Tailwind', 'CSS'],
+    },
+    {
+      title: 'Bases de Datos',
+      skills: ['SQL Server', 'MySQL', 'MariaDB', 'MongoDB'],
+    },
+    {
+      title: 'Herramientas & Flujo',
+      skills: ['Git', 'GitHub', 'Vite', 'VS Code', 'APIs REST'],
+    },
+  ],
+
+  featuredProject: {
+    tag: 'Proyecto en equipo',
+    title: 'BETA — Plataforma EdTech de Salud Financiera',
+    summary:
+      'Plataforma pedagógica para simular finanzas personales, diseñada con una arquitectura de cuatro capas y backend en TypeScript conectado a SQL Server.',
+    stack: ['React', 'TypeScript', 'Node.js', 'Express', 'SQL Server', 'Tailwind CSS'],
+    // ✏️ EDITA AQUÍ: ajusta o amplía esta lista con tus propias palabras
+    highlights: [
+      'Diseñé la arquitectura de cuatro capas (interfaz → controlador → gestor → base de datos) para la plataforma.',
+      'Documenté el diseño con diagramas UML, casos de uso y diagramas de secuencia antes de implementar.',
+      'Construí el backend con Node.js, Express y TypeScript.',
+      'Migré la persistencia de datos, que inicialmente vivía en arrays en memoria, hacia SQL Server usando el driver mssql, con un pool de conexiones singleton y consultas parametrizadas.',
+    ],
+    // ✏️ EDITA AQUÍ: cuando tengas tus capturas, colócalas en /public/proyectos/
+    // y agrega una entrada por cada una, por ejemplo:
+    // { src: '/proyectos/beta-1.png', alt: 'Pantalla principal de BETA' }
+    gallery: [],
+    // ✏️ EDITA AQUÍ (opcional): descomenta y llena si tienes repo o demo
+    // repoUrl: 'https://github.com/tu-usuario/beta',
+    // liveUrl: 'https://tu-demo.vercel.app',
+  },
+
+  education: [
+    {
+      title: 'Ingeniería en Desarrollo de Software Multiplataforma',
+      institution: 'Universidad Tecnológica de Cancún',
+      // ✏️ EDITA AQUÍ: tu rango de años, ej. '2021 — 2025'
+      years: '',
+    },
+    // ✏️ EDITA AQUÍ: agrega más certificaciones copiando el objeto de arriba
+  ],
+
+  email: 'niktehernandezgonz@gmail.com',
+  phone: '998 865 4702',
+  location: 'Cancún, Quintana Roo, México',
+
+  // ✏️ EDITA AQUÍ: agrega tus redes descomentando y llenando los links
+  contactLinks: [
+    // { label: 'GitHub', href: 'https://github.com/tu-usuario', icon: '⌥' },
+    // { label: 'LinkedIn', href: 'https://linkedin.com/in/tu-usuario', icon: 'in' },
+  ],
+}
